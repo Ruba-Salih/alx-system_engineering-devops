@@ -1,2 +1,2 @@
 #!/bin/bash
-find /PATH -type f -depth 1 | wc -l
+echo $((`echo $PATH | grep -o ":/" | wc -l`+ 1)
