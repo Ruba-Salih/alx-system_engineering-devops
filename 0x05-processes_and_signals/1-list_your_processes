@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #printing pid
 
-ps axuf
+ps -axuf
