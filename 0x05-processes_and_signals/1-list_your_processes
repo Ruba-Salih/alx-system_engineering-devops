@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # printing pid
+#   Shows all processes, for all users, including those
 #+  which might not have a TTY.
 
 ps -axuf
