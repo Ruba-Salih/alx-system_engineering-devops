@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# printing pid
+# Displays the PID along with the process name, of 
+#+ processes whose name contains the word "bash".
 
 while true
 do
