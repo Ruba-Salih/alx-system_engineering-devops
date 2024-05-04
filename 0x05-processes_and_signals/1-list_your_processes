@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#printing pid
+# printing pid
 #+  which might not have a TTY.
 
 ps -axuf
