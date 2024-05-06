@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Displays "Best School"
+# Display "Best School"
 
 file='school'
 if  [ -e $file ]
@@ -8,9 +8,9 @@ then
 
     if [ -s $file ]
     then
-        echo "$file file is empty"
-    else
         echo "$file file is not empty"
+    else
+        echo "$file file is empty"
     fi
 
     if [ -f $file ]
