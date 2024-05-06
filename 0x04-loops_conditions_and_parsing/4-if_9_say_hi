@@ -2,8 +2,12 @@
 # Displays "Best School" 10 times using a while loop.
 
 i=0
-while [ $i -le 10 ]
+while [ $i -lt 10 ]
 do
+    if (( $i==8 ))
+    then
+        echo 'Hi'
+    fi
     echo 'Best School'
     i=$(( i + 1))
 done
