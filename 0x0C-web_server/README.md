@@ -1,0 +1,3 @@
+0x0C-web_server
+Description
+This project involves setting up and configuring a simple web server. The primary objectives are to understand the basics of HTTP, handle HTTP requests, serve static and dynamic content, implement multi-threading for concurrency, and ensure proper logging and error handling. The project is part of the Holberton School curriculum and aims to provide a strong foundation in web server concepts and network programming.
